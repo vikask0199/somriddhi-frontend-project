@@ -3,7 +3,7 @@ import PupularMembe from "./slider/PupularMembe"
 
 const PopularMemb = () => {
     return (
-        <div className="px-5 md:px-28 py-8 flex flex-col gap-5">
+        <div className="px-5 md:px-28 py-8 flex flex-col gap-5 overflow-hidden">
             <div className="flex items-center justify-center">
                 <img className="rounded-xl" src={member} alt="" />
             </div>

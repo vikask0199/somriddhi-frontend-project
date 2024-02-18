@@ -14,17 +14,17 @@ const Footer = () => {
               <p className="font-semibold text-xs">DIGITAL Pvt. Ltd.</p>
             </div>
           </div>
-          <p className="text-white w-60">
+          <p className="text-white md:w-60">
             Lorem Ipsum is simply dummy of the printing and type setting.
           </p>
-          <div className="bg-white rounded-lg flex items-center justify-center gap-1 border w-36 h-16">
+          <div className="bg-white rounded-lg flex items-center md:justify-center justify-evenly md:gap-1 border md:w-36 h-16">
             <img className="h-10" src="https://s3-alpha-sig.figma.com/img/bb3d/b068/96379acc362b9f57c3759a92a40bc545?Expires=1708300800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=M8jOWAI6j12~Beii14Tc2x3z6BXbPeuT4qp8SlDFdhZH3i9toCZQ0HHT9lYZb7sjWMbAuYkS~RXy9QaQ7bFymW5nqGdPT8fHwRRXlDclb75hpJcn9T0t1uL7mAoOGbSoKaOh36ypomnZfM49zcMbr9QLL81PLkxwL~U4aXFPsAwShYgviTPgS6uIl8E~RF8XsHsaEUTWS03g2J8U-sCWsX4EJDai136DLaLR3JLIbiiYyQIlznK9kIS5xp55fbv3Fg53ATr0kk0aGpRQb12ZrKWjUbIOaaMI1K1trzpZV27kSt6DSbRH5YfJdqqB3~DBEZB--V5YQBmrq4A0C6Oa1Q__" alt="" />
             <div>
               <p className="text-xs text-[#747577]">Download From</p>
               <p className="font-bold text-">App Store</p>
             </div>
           </div>
-          <div className="bg-white rounded-lg flex items-center justify-center gap-1 border w-36 h-16">
+          <div className="bg-white rounded-lg flex items-center md:justify-center justify-evenly md:gap-1 border md:w-36 h-16">
             <img className="h-10" src="https://s3-alpha-sig.figma.com/img/abcf/3f86/390660e5e1346a50c7b797d3d57f072f?Expires=1708300800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JvbUo1l~Zk2Wvjo-Q3ex7Nn5Tzl7CSAr~NTA7X~WW3neoWeQS7H9MqtGc3RxvbGRWlPlSTFy3k39Kyy4pt1pMmIaY6ZbZX5L-2Qmu-QJ6fPkQHaREZVIspUKi5MKllKv8u4BKMq7HVI8bSrMkOBwZU9fsaysjqnZO4d09spqb7DkUKZUTxQFxLDOlDA8i6Is-SnCwSxj2-deFbRaWrcPJ6AvMDop0pBC4U0ODdnqfqgSpAZxn0IOaCMrg9IBUuhvJpten6V~dDNC9useMAfau16lSODlfrEd-J-VkCCIYcxawybtGlZo-LQcCr9F82zSlD4ojrfZ7Z5bjeS41LzORw__" alt="" />
             <div>
               <p className="text-xs text-[#747577]">Download From</p>

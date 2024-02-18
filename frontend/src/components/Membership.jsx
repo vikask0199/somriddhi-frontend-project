@@ -8,7 +8,7 @@ const Membership = () => {
         setActiveTab(tab);
     };
     return (
-        <div className="px-5 md:px-28 py-8 gap-y-5  flex flex-col bg-[#f8f8f8]">
+        <div className="px-5 md:px-28 py-8 gap-y-5  flex flex-col bg-[#f8f8f8] overflow-hidden">
             <ul className="flex items-center justify-center bg-[#F8F8F8] py-1 px-2">
                 {tabs.map((tab, index) => (
                     <li

@@ -8,8 +8,8 @@ const Navbar = () => {
   const [open, setOpen] = useState(false)
 
   return (
-    <div className='flex items-center justify-center md:px-14 sm:px-3  bg-black text-white'>
-      <div className='flex items-center justify-between w-full md:w-auto z-50 px-6 py-4'>
+    <div className='flex items-center justify-center z-50 md:px-14 sm:px-3  bg-black text-white md:sticky top-0 left-0'>
+      <div className='flex items-center justify-between w-full md:w-auto  px-6 py-4'>
         <div className="gap-1 text-white flex items-center md:hidden">
           <img className="h-10" src={logo} alt="" />
           <div>

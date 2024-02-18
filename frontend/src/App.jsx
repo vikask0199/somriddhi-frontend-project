@@ -17,7 +17,7 @@ function App() {
     <>
       <Topbar />
       <Navbar />
-      <HomeHeader />
+       <HomeHeader />
       <Membership />
       <DealsDay />
       <Category />
@@ -26,7 +26,7 @@ function App() {
       <Works />
       <Team />
       <Popular />
-      <Footer />
+      <Footer /> 
     </>
   )
 }
