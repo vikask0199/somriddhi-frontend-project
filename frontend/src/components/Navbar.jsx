@@ -22,27 +22,27 @@ const Navbar = () => {
         </div>
       </div>
       <ul className='md:flex hidden items-center lg:gap-8 h-16 gap-5'>
-        <li className={`h-16 flex items-center cursor-pointer ${activeLink === 0 ? 'border-b-4 border-red-700 text-red-700' : ''}`}>
+        <li className={`h-16 flex items-center cursor-pointer ${activeLink === 0 ? 'border-b-4 border-red-600 text-red-600' : ''}`}>
           <div className='' onClick={() => setActiveLink(0)} to="/">
             Home
           </div>
         </li>
-        <li className={`h-16 flex items-center cursor-pointer ${activeLink === 1 ? 'border-b-4 border-red-700 text-red-700' : ''}`}>
+        <li className={`h-16 flex items-center cursor-pointer ${activeLink === 1 ? 'border-b-4 border-red-600 text-red-600' : ''}`}>
           <div className='' onClick={() => setActiveLink(1)} to="/about-us">
             About
           </div>
         </li>
-        <li className={`h-16 flex items-center cursor-pointer ${activeLink === 3 ? 'border-b-4 border-red-700 text-red-700' : ''}`}>
+        <li className={`h-16 flex items-center cursor-pointer ${activeLink === 3 ? 'border-b-4 border-red-600 text-red-600' : ''}`}>
           <div className='' onClick={() => setActiveLink(3)} to="/our-blogs">
             Blogs
           </div>
         </li>
-        <li className={`h-16 flex items-center cursor-pointer ${activeLink === 2 ? 'border-b-4 border-red-700 text-red-700' : ''}`}>
+        <li className={`h-16 flex items-center cursor-pointer ${activeLink === 2 ? 'border-b-4 border-red-600 text-red-600' : ''}`}>
           <div className='' onClick={() => setActiveLink(2)} to="/our-services">
             Services
           </div>
         </li>
-        <li className={`h-16 flex items-center cursor-pointer ${activeLink === 4 ? 'border-b-4 border-red-700 text-red-700' : ''}`}>
+        <li className={`h-16 flex items-center cursor-pointer ${activeLink === 4 ? 'border-b-4 border-red-600 text-red-600' : ''}`}>
           <div className='' onClick={() => setActiveLink(4)} to="/contact-us">
             Contact Us
           </div>
