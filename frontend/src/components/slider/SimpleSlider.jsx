@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import imageSlider from "../../assets/imageSlide.png"
 import { useState } from "react";
+import "./SimpleSlider.css"
 
 function SimpleSlider() {
     const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
@@ -23,14 +24,14 @@ function SimpleSlider() {
     return (
         <div className="slider-container">
             <Slider {...settings}>
-                <div className="w-full  h-[400px] px-10 outline-none">
-                    <img className="h-full w-full" src={imageSlider} alt="" />
+                <div className="w-full outline-none">
+                    <img className="h-full w-full slider-item" src={imageSlider} alt="" />
                 </div>
-                <div className="w-full  h-[400px] px-10 outline-none">
-                    <img className="h-full w-full" src={imageSlider} alt="" />
+                <div className="w-full outline-none">
+                    <img className="h-full w-full slider-item" src={imageSlider} alt="" />
                 </div>
-                <div className="w-full  h-[400px] px-10 outline-none">
-                    <img className="h-full w-full" src={imageSlider} alt="" />
+                <div className="w-full outline-none">
+                    <img className="h-full w-full slider-item" src={imageSlider} alt="" />
                 </div>
             </Slider>
         </div>

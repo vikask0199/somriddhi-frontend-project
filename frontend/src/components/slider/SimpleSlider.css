@@ -1,0 +1,19 @@
+.slick-dots {
+    bottom: -34px
+}
+
+.slider-item {
+    max-height: 400px;
+}
+
+@media screen and (min-width: 768px) {
+    .slider-item {
+        max-height: 600px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .slider-item {
+        max-height: 500px;
+    }
+}

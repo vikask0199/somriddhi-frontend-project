@@ -22,27 +22,27 @@ const Navbar = () => {
         </div>
       </div>
       <ul className='md:flex hidden items-center lg:gap-8 h-16 gap-5'>
-        <li className={`h-16 flex items-center cursor-pointer ${activeLink === 0 ? 'border-b-2 border-red-700 text-red-700' : ''}`}>
+        <li className={`h-16 flex items-center cursor-pointer ${activeLink === 0 ? 'border-b-4 border-red-700 text-red-700' : ''}`}>
           <div className='' onClick={() => setActiveLink(0)} to="/">
             Home
           </div>
         </li>
-        <li className={`h-16 flex items-center cursor-pointer ${activeLink === 1 ? 'border-b-2 border-red-700 text-red-700' : ''}`}>
+        <li className={`h-16 flex items-center cursor-pointer ${activeLink === 1 ? 'border-b-4 border-red-700 text-red-700' : ''}`}>
           <div className='' onClick={() => setActiveLink(1)} to="/about-us">
             About
           </div>
         </li>
-        <li className={`h-16 flex items-center cursor-pointer ${activeLink === 3 ? 'border-b-2 border-red-700 text-red-700' : ''}`}>
+        <li className={`h-16 flex items-center cursor-pointer ${activeLink === 3 ? 'border-b-4 border-red-700 text-red-700' : ''}`}>
           <div className='' onClick={() => setActiveLink(3)} to="/our-blogs">
             Blogs
           </div>
         </li>
-        <li className={`h-16 flex items-center cursor-pointer ${activeLink === 2 ? 'border-b-2 border-red-700 text-red-700' : ''}`}>
+        <li className={`h-16 flex items-center cursor-pointer ${activeLink === 2 ? 'border-b-4 border-red-700 text-red-700' : ''}`}>
           <div className='' onClick={() => setActiveLink(2)} to="/our-services">
             Services
           </div>
         </li>
-        <li className={`h-16 flex items-center cursor-pointer ${activeLink === 4 ? 'border-b-2 border-red-700 text-red-700' : ''}`}>
+        <li className={`h-16 flex items-center cursor-pointer ${activeLink === 4 ? 'border-b-4 border-red-700 text-red-700' : ''}`}>
           <div className='' onClick={() => setActiveLink(4)} to="/contact-us">
             Contact Us
           </div>
@@ -51,29 +51,29 @@ const Navbar = () => {
 
 
       {/* mobile view */}
-      <ul className={`md:hidden z-40 absolute bg-black h-full w-full bottom-0 pt-16 pl-4 duration-500 ${open ? 'left-0' : 'left-[-100%]'}`}>
+      <ul className={`md:hidden z-40 absolute bg-black h-full w-screen bottom-0 top-16 pt-5 pl-4 duration-500 ${open ? 'left-0' : 'left-[-100%]'}`}>
         <li onClick={() => setOpen(!open)}>
-          <div className='px-3 py-5 inline-block' to="/" onClick={() => setActiveLink(0)}>
+          <div className={`px-0 my-5 py-3 inline-block w-full ${activeLink === 0 ? 'border-b-2 border-red-700 text-red-700' : ''}`} to="/" onClick={() => setActiveLink(1)}>
             Home
           </div>
         </li>
         <li onClick={() => setOpen(!open)}>
-          <div className='px-3 py-5 inline-block' to="/about-us" onClick={() => setActiveLink(1)}>
+          <div className={`px-0 my-5 py-3 inline-block w-full ${activeLink === 1 ? 'border-b-2 border-red-700 text-red-700' : ''}`} to="/about-us" onClick={() => setActiveLink(1)}>
             About
           </div>
         </li>
         <li onClick={() => setOpen(!open)}>
-          <div className='px-3 py-5 inline-block' onClick={() => setActiveLink(3)} to="/our-blogs">
+          <div className={`px-0 my-5 py-3 inline-block w-full ${activeLink === 2 ? 'border-b-2 border-red-700 text-red-700' : ''}`} to="/our-blogs" onClick={() => setActiveLink(1)}>
             Blogs
           </div>
         </li>
         <li onClick={() => setOpen(!open)}>
-          <div className='px-3 py-5 inline-block' onClick={() => setActiveLink(2)} to="/our-services">
+          <div className={`px-0 my-5 py-3 inline-block w-full ${activeLink === 3 ? 'border-b-2 border-red-700 text-red-700' : ''}`} to="/our-services" onClick={() => setActiveLink(1)}>
             Services
           </div>
         </li>
         <li onClick={() => setOpen(!open)}>
-          <div className='px-3 py-5 inline-block' onClick={() => setActiveLink(4)} to="/contact-us">
+          <div className={`px-0 my-5 py-3 inline-block w-full ${activeLink === 4 ? 'border-b-2 border-red-700 text-red-700' : ''}`} to="/contact-us" onClick={() => setActiveLink(1)}>
             Contact Us
           </div>
         </li>
